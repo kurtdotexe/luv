@@ -22,7 +22,7 @@ export default function FlowerSection() {
   useEffect(() => {
     const generateFlowers = () => {
       const generated: FloatingFlower[] = [];
-      const count = 60; // 🌸 adjust this for density — 30–50 looks great
+      const count = 45; // 🌸 adjust this for density — 30–50 looks great
       for (let i = 0; i < count; i++) {
         generated.push({
           id: i,
